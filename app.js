@@ -1,18 +1,17 @@
-let pronoun = ['the','our'];
-let adj = ['great', 'big' ];
-let noun = ['jogger','racoon'];
+let pronouns = ['the','our'];
+let adjs = ['great', 'big' ];
+let nouns = ['jogger','racoon'];
 
-const type1 = function(){
-    for (const element of array1) {
-        console.log(element);
+//For loop
+debugger
+for (let pronoun of pronouns){
+    console.log(pronoun)
+    for (let adj of adjs){
+        console.log(adj)
+        for (let noun of nouns){
+            console.log(noun)
+            let domainName = pronoun+adj+noun;
+            debugger
+        }
     }
 }
-
-for (const element of array1) {
-    console.log(element);
-}
-
-const array1 = [];
-
-// return `${pronoun1}${adj2}${noun3}.com`;
-console.log(type1())
